@@ -1,0 +1,55 @@
+/* ||||||||||||||||||||| Add @import rule here |||||||||||||||||||| */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+}
+header{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+#logo{
+  margin: 0;
+  padding: 0;
+  height: 420px;
+  width: 650px;
+  transform: translateY(-120px);
+  -webkit-transform: translateY(-120px);
+  -moz-transform: translateY(-120px);
+  -ms-transform: translateY(-120px);
+  -o-transform: translateY(-120px);
+}
+.container{
+  padding: 0;
+  text-align: center;
+}
+.accordion{
+  transform: translateY(10px);
+  margin: 0 auto;
+  width: 80%;
+  text-align: start;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
+.accordion-item{
+  border-color: #EB3118;
+}
+.accordion-button h3{
+  transform: translateY(3px);
+  -webkit-transform: translateY(3px);
+  -moz-transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  -o-transform: translateY(3px);
+  margin-right: 20px;
+}
+.accordion-body code{
+  color: #EB3118;
+}
+
+/* ||||||||||||||||||||| Add CSS code under this line |||||||||||||||||||| */
